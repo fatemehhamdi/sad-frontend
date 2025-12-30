@@ -1,0 +1,48 @@
+/* ===== MAP ===== */
+.map-wrapper {
+  height: 100%;
+  width: 100%;
+  background: var(--white);
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  min-height: 0;
+  border: none;
+}
+
+.leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+  font-family: inherit;
+}
+
+/* Custom Leaflet controls */
+.leaflet-control {
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(19, 36, 64, 0.15) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.leaflet-control-zoom a {
+  background: var(--white) !important;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: var(--lily-white) !important;
+}
+
+/* Map attribution */
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: var(--text) !important;
+  font-size: 11px !important;
+}
+
+/* Map tile styling */
+.leaflet-tile {
+  filter: saturate(1.1) contrast(1.05) !important;
+}

@@ -1,5 +1,5 @@
-@import url(colors.css);
-@import url(error.css);
+@import url(./../../styles/colors.css);
+@import url(./../../styles/error.css);
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body {
 /* LEFT PANEL */
 .left-panel {
     width: 500px;
-    padding: 50px 40px;
+    padding: 100px 40px;
     background: var(--regal-blue);
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
@@ -27,7 +27,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: start; 
     align-items: start;     
     text-align: start;
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../styles/Register.css";
+import "./Register.css";
 import logo from "../../assets/images/logo-text.svg";
 import box from "../../assets/images/box.svg";
 
